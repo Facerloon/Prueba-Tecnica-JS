@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Xanh Mono', monospace;
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url(../Multimedia/Body.jpg);
+    background-size: cover;
+}
+
+.mainIndex {
+    text-align: center;
+    margin-top: 20vh;
+
+    &__title {
+        color: black;
+        margin-bottom: 5vh;
+    }
+
+    &__input {
+        font-size: 1.5rem;
+        color: white;
+        background-color: black;
+    }
+
+    &__button {
+        font-size: 1.5rem;
+        background-color: cornflowerblue;
+        color: black;
+        border-color: cornflowerblue;
+    }
+
+    &__list {
+        margin-left: 15vw;
+        margin-top: 4vh;
+        border: double black;
+        width: 70vw;
+        background-image: url(../Multimedia/Worklist.png);
+        background-size: cover;
+
+        &__li {
+            color: black;
+            font-size: 1.3rem;
+            
+
+            &__button {
+                background-color: cornflowerblue;
+                color: white;
+                border-color: cornflowerblue;
+                margin-left: 2vw;
+                width: 1.5vw;
+                height: 1.5vh;
+            }
+        }
+    }
+}

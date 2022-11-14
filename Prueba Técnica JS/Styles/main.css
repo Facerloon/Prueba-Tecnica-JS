@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Xanh Mono", monospace;
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url(../Multimedia/Body.jpg);
+  background-size: cover;
+}
+
+.mainIndex {
+  text-align: center;
+  margin-top: 20vh;
+}
+.mainIndex__title {
+  color: black;
+  margin-bottom: 5vh;
+}
+.mainIndex__input {
+  font-size: 1.5rem;
+  color: white;
+  background-color: black;
+}
+.mainIndex__button {
+  font-size: 1.5rem;
+  background-color: cornflowerblue;
+  color: black;
+  border-color: cornflowerblue;
+}
+.mainIndex__list {
+  margin-left: 15vw;
+  margin-top: 4vh;
+  border: double black;
+  width: 70vw;
+  background-image: url(../Multimedia/Worklist.png);
+  background-size: cover;
+}
+.mainIndex__list__li {
+  color: black;
+  font-size: 1.3rem;
+}
+.mainIndex__list__li__button {
+  background-color: cornflowerblue;
+  color: white;
+  border-color: cornflowerblue;
+  margin-left: 2vw;
+  width: 1.5vw;
+  height: 1.5vh;
+}/*# sourceMappingURL=main.css.map */
